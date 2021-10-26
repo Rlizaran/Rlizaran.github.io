@@ -5,12 +5,16 @@ body{
 }
 
 /* Navbar*/
+.navbar{
+    max-height: none;
+    padding: 10px;
+}
 .navbar-brand {
-    color: white;
+    color: white !important;
     font-weight: bold;
     background-color: #0b8dad;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-size: cover;
+    padding: 10px 10px !important;
 }
 
 .nav-link:hover{
@@ -64,13 +68,16 @@ table {
         max-height: none; 
         padding: inherit;
     }
+
+    .container-fluid {
+        padding: 10px;
+    }
     .navbar div{
         margin: inherit; 
         background-color: #16b2da;  
     }
 
     .navbar-brand{
-        color: white;
         padding: 15px;
         background-color: #16b2da;
     }
