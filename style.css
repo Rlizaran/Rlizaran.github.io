@@ -1,0 +1,97 @@
+
+/* Body*/
+body{
+    background-color: #EDEDED; 
+}
+
+/* Navbar*/
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    background-color: #0b8dad;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+}
+
+.nav-link:hover{
+    background-color:#E7E7E7;
+   }
+
+.navbar-brand:hover{
+color: rgb(175, 175, 175);
+}
+
+
+/* Title Class  */
+.title {
+    color: #0b8dad;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 25px; 
+}
+
+/* Paragraph Element */
+p{
+ color: #6D8092;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 17px; 
+}
+
+/* Boxes Class */
+.boxes {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    padding: 10px 20px 20px; 
+    background-color: white; 
+
+  }
+.box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    margin-right: 60px;
+    margin-left: 60px;
+    background-color: white; 
+}
+
+/* Table Element */
+table {
+    background-color: white;
+}
+
+/* Media Queries */
+@media(max-width: 992px){
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    .navbar div{
+        margin: inherit; 
+        background-color: #16b2da;  
+    }
+
+    .navbar-brand{
+        color: white;
+        padding: 15px;
+        background-color: #16b2da;
+    }
+    
+    button{
+        margin-right: 30px; 
+    }
+    #navbarSupportedContent {
+        background-color: white;
+    }
+
+    #navbarDropdownMenuLink {
+        margin-left: 15px;
+    }
+    .nav-link {
+        margin-left: 15px;
+    }
+    .boxes {
+        margin-top: 60px; 
+        margin-bottom: 62px; 
+        padding: 10px 20px 20px;
+        background-color: inherit;
+      }
+}
