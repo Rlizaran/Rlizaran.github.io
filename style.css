@@ -25,6 +25,11 @@ body{
 color: rgb(175, 175, 175);
 }
 
+.box-comparation {
+    margin-bottom: 30px;
+    padding: 10px 50px 20px; 
+}
+
 
 /* Title Class  */
 .title {
@@ -32,6 +37,9 @@ color: rgb(175, 175, 175);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder; 
     padding-top: 25px; 
+}
+.active {
+    background-color: rgb(4, 109, 158) !important;
 }
 
 /* Paragraph Element */
@@ -69,12 +77,32 @@ table {
         padding: inherit;
     }
 
+    .active {
+        background-color: rgb(4, 109, 158) !important;
+        width: 325px;
+        height: auto;
+    }
+
+    .box-comparation {
+        margin-bottom: 30px;
+        padding: 10px 50px 20px; 
+    }
+    .redo{
+        width: 650px;
+        height: auto;
+    }
+
+    .redobottom {
+        width: 325px;
+        height: auto;
+    }
+
     .container-fluid {
         padding: 10px;
     }
     .navbar div{
         margin: inherit; 
-        background-color: #16b2da;  
+        background-color: #16b2da;
     }
 
     .navbar-brand{
@@ -99,6 +127,6 @@ table {
         margin-top: 60px; 
         margin-bottom: 62px; 
         padding: 10px 20px 20px;
-        background-color: inherit;
+        background-color: white;
       }
 }
