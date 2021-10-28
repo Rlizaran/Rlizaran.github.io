@@ -40,6 +40,7 @@ color: rgb(175, 175, 175);
 }
 .active {
     background-color: rgb(4, 109, 158) !important;
+    border: 3px solid;
 }
 
 /* Paragraph Element */
